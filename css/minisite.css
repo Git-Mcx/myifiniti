@@ -1,0 +1,629 @@
+/*全局样式*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    html, body {
+        position: relative;
+        height: 100%;
+        font-family: "宋体","微软雅黑",Arail,Tabhoma;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    /*通用样式*/
+    img {
+        width: 100%;
+        height: 100%;
+        /*display:block;*/
+    }
+    .yfndtb {
+        position: fixed;
+        z-index:10;
+        width: 10%;
+        height: 3.04577465%;
+        
+        left: 45%;
+        bottom: 1%;
+        animation-name: flash;
+        -webkit-animation-name: flash;
+        animation-iteration-count:infinite;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+    }
+
+    .dkyy {
+        position: fixed;
+        z-index:10;
+        width: 9%;
+        height: 5.99823944%;
+        
+        right:10%;
+        bottom: 5%;
+        animation-name: music;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        -webkit-animation-name: music;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;
+    }
+     @keyframes music{
+      0%{transform: rotateZ(0deg);}
+      50%{transform: rotateZ(-180deg);}
+      100%{transform: rotateZ(-360deg);}
+    }
+    @-webkit-keyframes music{
+      0%{-webkit-transform: rotateZ(0deg);}
+      50%{-webkit-transform: rotateZ(-180deg);}
+      100%{-webkit-transform: rotateZ(-360deg);}
+    }
+
+    /*第一页开始*/
+    .bg1 {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .tsa {
+        width: 50%;
+        height: 8%;
+        position:absolute;
+        bottom:18%;
+        left:3%;
+    }
+    .bdd {
+        width: 40%;
+        height: 7.0334507%;
+        position:absolute;
+        right: 0;
+        bottom:17%;
+    }
+    
+       /* animation-name: musicfn;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        -webkit-animation-name: musicfn;
+        -webkit-animation-duration: 1s;
+        -webkit-animation-timing-function: linear;
+        -webkit-animation-iteration-count: infinite;*/
+    
+
+    /*第一页结束*/
+    
+
+    /*第二页开始*/
+    .bg2 {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .ct {
+        width: 39.678125%;
+        height: 18.9982394%;
+        position:absolute;
+        top: 50.5%;
+        left:0;
+    }
+    .js {
+        left:5%;
+        top: 8%;
+        position:absolute;
+        font-size: 12px;
+        display: block;
+
+    }
+    .cl {
+        left: 5%;
+        top: 12%;
+        position:absolute;
+        font-size: 12px;
+        display: block;
+    }
+    .zc {
+        left: 5%;
+        top:16%;
+        position:absolute;
+        font-size: 12px;
+        display: block;
+    }
+    .zj {
+        left: 5%;
+        top:20%;
+        position:absolute;
+        font-size: 12px;
+        display: block;
+    }
+    .cd {
+        background-color: red;
+        color: white;
+        font-size: 16px;
+    }
+    /*第二页结束*/
+
+
+    /*第三页开始*/
+    .bg3 {
+        width: 100%;
+        height: 100%;
+       
+    }
+     .or {
+        position:absolute;
+        left: 5%;
+        top: 8%;
+        font-size: 12px;
+        display: block;
+    }
+    .md {
+        position:absolute;
+        left: 5%;
+        top: 12%;
+        font-size: 12px;
+        display: block;
+    }
+    .sm {
+        position:absolute;
+        left: 5%;
+        top: 16%;
+        font-size: 12px;
+        display: block;
+    }
+    .cj {
+        position:absolute;
+        left: 5%;
+        top: 20%;
+        font-size: 12px;
+        display: block;
+    }
+    .jx {
+        position:absolute;
+        left: 5%;
+        top: 24%;
+        font-size: 12px;
+        display: block;
+    }
+    .jf {
+        background-color: red;
+        color: white;
+        font-size: 16px;
+    }
+
+    /*第三页结束*/
+
+
+    /*第四页开始*/
+    .bg4 {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .xc {
+        position:absolute;
+        width: 58.7%;
+        height: 25.47%;
+        right:0;
+        top: 60%;
+    }
+    .mj {
+        font-size: 12px;
+        position: absolute;
+        right: 5%;
+        top: 8%;
+        color: white;
+        display: block;
+    }
+    .sf {
+        font-size: 12px;
+        position: absolute;
+        right: 5%;
+        top: 12%;
+        color: white;
+        display: block;
+    }
+    .mg {
+        font-size: 12px;
+        position: absolute;
+        right: 5%;
+        top: 16%;
+        color: white;
+        display: block;
+    }
+    .hx {
+        background-color: red;
+        color: white;
+        font-size: 16px;
+
+    }
+    /*第四页结束*/
+
+
+    /*第五页开始*/
+    .bg5 {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .hz {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 8%;
+        color: black;
+    }
+    .hc {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 12%;
+        color: black;
+    }
+    .hf {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 16%;
+        color: black;
+    }
+    .hg {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 20%;
+        color: black;
+    }
+    .zx {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 24%;
+        color: black;
+    }
+    .hs {
+        background-color: red;
+        color: white;
+        font-size: 16px;
+    }
+    /*第五页结束*/
+
+
+    /*第六页开始*/
+    .bg6 {
+        width: 100%;
+        height: 100%;
+       
+    }
+    .yq {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 8%;
+        color: black;
+    }
+    .wy {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 12%;
+        color: black;
+    }
+    .jy {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 16%;
+        color: black;
+    }
+    .wl {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 20%;
+        color: black;
+    }
+    .zl {
+        background-color: red;
+        color: white;
+        font-size: 16px;
+    }
+    /*第六页结束*/
+
+
+    /*第七页开始*/
+    .bg7 {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .sl {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        right: 5%;
+        top: 8%;
+        color: black;
+    }
+    .nq {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        right: 5%;
+        top: 12%;
+        color: black;
+    }
+    .sw {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        right: 5%;
+        top: 16%;
+        color: black;
+    }
+    .xy {
+        background-color: red;
+        color: white;
+        font-size: 16px;
+    }
+   /* 第七页结束*/
+
+
+    /*第八页开始*/
+    .bg8{
+        width: 100%;
+        height: 100%;
+        
+    }
+    .kx {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 8%;
+        color: white;
+
+    }
+    .yx {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 12%;
+        color: white;
+    }
+    .jt {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 16%;
+        color: white;
+    }
+    .wz {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 5%;
+        top: 20%;
+        color: white;
+    }
+    .fx {
+        background-color: red;
+        color: white;
+        font-size: 16px;
+    }
+    /*第八页结束*/
+
+
+    /*第九页开始*/
+    .bg9{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .ta {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 10%;
+        top: 8%;
+        color: white;
+    }
+    .lq {
+        position:absolute;
+        display: block;
+        font-size: 12px;
+        left: 35%;
+        top: 12%;
+        color: white;
+
+    }
+    .ga {
+        background-color: red;
+        color: white;
+        font-size: 16px;
+    }
+    /*第九页结束*/
+
+
+    /*第十页开始*/
+    .bg10 {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .qv {
+        position: absolute;
+        left: 8%;
+        top: 8%;
+        display: block;
+        background-color: red;
+        color: white;
+        font-size: 16px;
+    }
+    .dc {
+        position: absolute;
+        left: 8%;
+        top: 12%;
+        display: block;
+        background-color: red;
+        color: white;
+        font-size: 16px;
+    }
+    .dx {
+        position: absolute;
+        display: block;
+        left: 8%;
+        top: 16%;
+        color: black;
+        font-size: 12px;
+    }
+    .hd1 {
+        width: 8px;
+        height: 8px;
+    }
+    .tj {
+        position: absolute;
+        display: block;
+        left: 8%;
+        top: 20%;
+        color: black;
+        font-size: 12px;
+    }
+    .hd2 {
+        width: 8px;
+        height: 8px;
+
+    }
+    .qt {
+        position: absolute;
+        display: block;
+        left: 8%;
+        top: 24%;
+        color: black;
+        font-size: 12px;
+    }
+    .hd3 {
+        width: 8px;
+        height: 8px;
+    }
+    .cz {
+        position: absolute;
+        display: block;
+        left: 8%;
+        top: 28%;
+        color: black;
+        font-size: 12px;
+    }
+    .hd4 {
+        width: 8px;
+        height: 8px;
+    }
+    .tm {
+        position: absolute;
+        display: block;
+        left: 8%;
+        top: 32%;
+        color: black;
+        font-size: 12px;
+    }
+    .hd5 {
+        width: 8px;
+        height: 8px;
+    }
+    .fw {
+        position: absolute;
+        display: block;
+        left: 8%;
+        top: 38%;
+        color: black;
+        font-size: 12px;
+    }
+    .hd6 {
+        width: 8px;
+        height: 8px;
+    }
+
+
+    /*第十页结束*/
+
+
+    /*第十一页开始*/
+    .bg11 {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .fy {
+        font-size: 0.7rem;
+        color: darkgray;
+        position: absolute;
+        right: 1%;
+        top: 1%;
+    }
+    .wm {
+        font-size: 1.2rem;
+        color: darkgray;
+        position: absolute;
+        left: 12%;
+        top: 25%;
+    }
+    .sp {
+        width: 35%;
+        height: 20%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        animation-iteration-count:infinite;
+    }
+    .dp {
+        font-size: 1.0rem;
+        color: darkgray;
+        position: absolute;
+        left: 40%;
+        bottom: 8%;
+    }
+    /*第十一页结束*/
